@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('.accordion-button');
   let currentIndex = 0;
 
+  
+
   buttons.forEach((button, index) => {
     button.addEventListener('keydown', (event) => {
       switch (event.key) {
