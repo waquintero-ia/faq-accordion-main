@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [You can see my solution here: https://www.frontendmentor.io/solutions/responsive-accordion-using-flex-and-javascript-X22zzCzJYd](https://your-solution-url.com)
 - Live Site URL: [https://waquintero-ia.github.io/faq-accordion-main/](https://your-live-site-url.com)
 
 ### Built with
