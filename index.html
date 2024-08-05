@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="faqs ">
+        <div class="star">
+          <img src="./assets/images/icon-star.svg" alt="start"/>
+        </div>
+        <div class="title-faqs fs-600 fw-700 text-color-black">
+          FAQs
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span class="title-accordion">What is Frontend Mentor, and how will it help me?</span>
+            <img  class="icon-plus-minus" src="./assets/images/icon-plus.svg" alt="plus"/>
+          </button>
+
+          <div class="accordion-content">
+            <p>
+              Frontend Mentor offers realistic coding challenges to help developers improve their 
+              frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+              all levels and ideal for portfolio building.
+            </p>
+          </div>
+
+        </div>
+
+        <hr />
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span class="title-accordion">Is Fronted Mentor free?</span>
+            <img  class="icon-plus-minus" src="./assets/images/icon-plus.svg" alt="plus"/>
+          </button>
+
+          <div class="accordion-content">
+            <p>
+              Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+              option providing access to a range of projects suitable for all skill levels.
+            </p>
+          </div>
+
+        </div>
+
+        <hr />
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span class="title-accordion">Can I use Frontend Mentor projects in my portfolio?</span>
+            <img  class="icon-plus-minus" src="./assets/images/icon-plus.svg" alt="plus"/>
+          </button>
+
+          <div class="accordion-content">
+            <p>
+              Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+              way to showcase your skills to potential employers!
+            </p>
+          </div>
+
+        </div>
+
+        <hr />
+
+        <div class="accordion-item">
+          <button class="accordion-button">
+            <span class="title-accordion">How can I get help if I'm stuck on a challenge?</span>
+            <img  class="icon-plus-minus" src="./assets/images/icon-plus.svg" alt="plus"/>
+          </button>
+
+          <div class="accordion-content">
+            <p>
+              The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+              channel where you can ask questions and seek support from other community members.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="scriptFocusable.js"></script>
+</body>
+</html>
